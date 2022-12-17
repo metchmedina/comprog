@@ -1,0 +1,59 @@
+------------------------------------------------------FEXER01.C------------------------------------------------------
+
+Make a program that would input 10 integers and output:
+
+	a.	Their total						
+	b.	The largest						
+	c.	The smallest						
+	d.	The total of all positive numbers				
+	e.	The total of all negative numbers				
+	f.	How many negative numbers were entered			
+	g.	How many numbers between 50 and 100 were entered		
+
+
+------------------------------------------------------FEXER02.C------------------------------------------------------
+
+Input two positive integer numbers. Compute and display the qoutient and the remainder
+without using any division operator or function.
+
+
+
+------------------------------------------------------FEXER03.C------------------------------------------------------
+
+Develop a FC & C program to compute and display the sum of squares of N. For example, if the value of N is 4,
+then the result is 30, because 4^2+3^2+2^2+1^1 = 16+9+4+1 = 30. Take note, take positive N. use for loop.
+
+
+
+
+------------------------------------------------------FEXER04.C------------------------------------------------------
+
+Interest is compounded annually at 10% by a certain bank. Make a program that would
+input an amount and a number of years (the program should test that both are positive)
+and output how much the original amount will be worth after that period.
+
+
+
+
+
+------------------------------------------------------FEXER05.C------------------------------------------------------
+DOTA 2 - Terminate Streaks Messages
+
+Create C Program that will accept:
+
+	0 - Terminated by a hero 
+	1 - Terminate a hero or opponent
+	2 - Exit the program
+
+and will display:
+
+ Streak Messages
+        Terminating Spree 	(3 Terminate in one life)
+        Dominating 		(4 Terminate in one life}
+        Mega Kill 		(5 Terminate in one life)
+        Unstoppable 		(6 Terminate in one life)
+        Wicked Sick 		(7 Terminate in one life)
+        Monster Kill 		(8 Terminate in one life)
+        GODLIKE! 		(9 Terminate in one life)
+        BEYOND GODLIKE!!!! 	(10 Terminate in one life)	
+
