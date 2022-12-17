@@ -1,0 +1,61 @@
+FEXER01.C
+#include <stdio.h>
+
+int main ()
+{
+
+	int npt_num, num;
+	int ttl = 0;
+	int cnt = 0;
+	int smllst;
+	int lrgst = 0;
+	int pos_sum = 0;
+	int neg_num = 0;
+	int neg_sum = 0;
+	int nbtwn = 0;
+	
+	printf	("\t\nInput 10 Integers: ");
+
+while (cnt < 10)
+{
+	scanf	("%d", &npt_num);
+	ttl += npt_num;
+	cnt++;
+	
+	if (npt_num > lrgst)
+	 {
+	 	lrgst = npt_num;
+	 }
+	if (npt_num < smllst)
+	 {
+	 	smllst = npt_num;
+	 }
+	if (npt_num > 0)
+	 {
+	 	pos_sum += npt_num;
+	 }
+	else {
+		neg_sum += npt_num;
+		neg_num += 1;
+	 }
+	 
+	if (npt_num >= 50 && npt_num <= 100)
+	 {
+	 	nbtwn += 1;
+	 }
+	 
+}
+	
+	printf 	("\n");
+	printf	("Total All Integers: %d\n", ttl);
+	printf	("Largest Integer: %d\n", lrgst);
+	printf	("Smallest Integer: %d\n", smllst);
+	printf	("Total of All Positive Integers: %d\n", pos_sum);
+	printf	("Total of All Negative Integers: %d\n", neg_sum);
+	printf	("Negative Integers Entered: %d\n", neg_num);
+	printf	("Integers Entered Between 50 and 100: %d\n", nbtwn);
+	printf	("\n");
+	
+return 0;
+}
+
